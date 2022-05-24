@@ -270,7 +270,7 @@ p{
 }
 .main-content, .main-content h1, .main-content p{
     color: #131313;
-    padding: 25px;
+    padding: 10px;
 }
 .main-content .main-btn {
     font-size:  1.8rem;
@@ -330,8 +330,12 @@ footer .container .btn-logo{
     transform: scale(1.5);
     transition: all 0.3s ease;
 }
-.social-links a, .website_rights{
+.social-links a {
     padding: 12px;
+   text-decoration: none;
+}
+.website_rights{
+    font-size: 13px;
     color: white;
 }
 .social-links{
@@ -350,6 +354,10 @@ footer .container .btn-logo{
     background-color: white;
     width: 50px;
     border-radius: 50%;
+}
+.social-icon i{
+    color: #000;
+    width: 100%;
 }
 
 @media screen and (max-width: 860px){
